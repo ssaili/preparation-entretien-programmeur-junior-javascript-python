@@ -4,8 +4,6 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
 
 ## Contenu du Dépôt
 
-## Contenu du Dépôt
-
 1. **Bases des environnements GNU/Linux-RHEL**
    * **Introduction à Linux:**
      * Familiarisez-vous avec les concepts de base des systèmes d'exploitation GNU/Linux, en particulier RHEL.
