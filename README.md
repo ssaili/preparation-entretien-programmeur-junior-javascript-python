@@ -1,6 +1,6 @@
 # Préparation Entretien - Programmeur Junior JavaScript - Python
 
-Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junior. Ce dépôt regroupe mes travaux et apprentissages sur les technologies JavaScript et Python, ainsi que d'autres compétences pertinentes pour le poste. Chaque étape de ma préparation est organisée dans un dossier distinct, permettant de consulter facilement l'avancée de mes travaux effectués en amont de l'entretien.
+Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junior. Ce dépôt regroupe mes travaux et apprentissages sur les technologies JavaScript et Python, ainsi que d'autres compétences pertinentes pour le poste. Les étapes de révision suivantes ont été générées via un prompt sur ChatGPT, qui a analysé le descriptif du poste. Chaque étape de ma préparation est organisée dans un dossier distinct, permettant de consulter facilement l'avancée de mes travaux effectués en amont de l'entretien.
 
 ## Contenu du Dépôt
 
@@ -30,4 +30,4 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
 
 ## Comment Utiliser ce Dépôt
 
-1. **Consulter chaque dossier dans l'ordre chronologique** : Lire le `README.md` à l'intérieur de chaque dossier pour consulter mon avancée dans les révisions et les concepts que j'ai appris à chaque étape.
+**Consulter chaque dossier dans l'ordre chronologique** : Lire le `README.md` à l'intérieur de chaque dossier pour consulter mon avancée dans les révisions et les concepts que j'ai appris à chaque étape.
