@@ -4,29 +4,53 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
 
 ## Contenu du Dépôt
 
-### 1. Bases des Environnements GNU/Linux-RHEL
-- **Scripts de commandes Linux** : Scripts bash pour la navigation et la gestion des processus sous RHEL.
-- **Documentation** : Concepts clés de l'utilisation de RHEL.
+## Contenu du Dépôt
 
-### 2. Installation et Configuration d'Ubuntu
-- **Guide d'installation** : Instructions pour installer et configurer Ubuntu.
-- **Scripts de configuration** : Scripts pour installer Python, Node.js, et configurer Selenium.
+1. **Bases des environnements GNU/Linux-RHEL**
+   * **Introduction à Linux:**
+     * Familiarisez-vous avec les concepts de base des systèmes d'exploitation GNU/Linux, en particulier RHEL.
+     * Pratiquez les commandes de base du terminal : navigation dans le système de fichiers, gestion des processus, et permissions.
+   * **Outils et configurations RHEL:**
+     * Explorez les outils spécifiques à RHEL pour le développement et le déploiement.
+     * Apprenez à utiliser des gestionnaires de paquets comme `yum` pour installer et gérer des logiciels.
 
-### 3. Bases de Python et JavaScript
-- **Exemples de scripts Python** : Scripts démontrant les concepts fondamentaux de Python.
-- **Projets JavaScript** : Un projet web interactif utilisant JavaScript.
+2. **Installation et configuration d'Ubuntu**
+   * **Installation d'Ubuntu:**
+     * Installez Ubuntu sur votre machine (ou utilisez une machine virtuelle).
+     * Configurez l'environnement de développement : installez Python, Node.js, et les WebDrivers nécessaires pour Selenium.
+   * **Configuration pour Selenium:**
+     * Assurez-vous que Selenium fonctionne correctement sur Ubuntu en exécutant des scripts de test simples.
+     * Configurez votre environnement pour le développement en Python et JavaScript, en installant les bibliothèques nécessaires.
 
-### 4. Introduction à Selenium
-- **Scripts Selenium** : Scripts en Python et JavaScript pour automatiser des tâches web.
-- **Documentation** : Utilisation de Selenium pour l'automatisation des tests.
+3. **Bases de Python et JavaScript**
+   * **Python:**
+     * Revoyez les concepts fondamentaux de Python : syntaxe, structures de données (listes, dictionnaires), boucles, fonctions, et gestion des exceptions.
+     * Écrivez des scripts simples pour renforcer votre compréhension, comme un script de calcul de la somme de nombres pairs dans une liste.
+   * **JavaScript:**
+     * Étudiez les bases de JavaScript : syntaxe, types de données, fonctions, et manipulation du DOM.
+     * Créez un petit projet, comme une page web interactive, pour appliquer vos connaissances.
 
-### 5. Intégration Continue et Contrôle Qualité avec GitLab
-- **Fichier .gitlab-ci.yml** : Exemple de configuration CI/CD.
-- **Documentation** : Notes sur les pratiques de contrôle qualité.
+4. **Introduction à Selenium**
+   * **Concepts de base de Selenium:**
+     * Comprenez ce qu'est Selenium et comment il est utilisé pour l'automatisation des tests.
+     * Écrivez un script Selenium simple en Python pour automatiser une tâche web (par exemple, ouvrir une page et vérifier le titre).
+   * **Scripts Selenium en JavaScript:**
+     * Répétez l'exercice en JavaScript pour comprendre les différences entre les deux langages.
+     * Explorez l'exécution de JavaScript dans Selenium pour manipuler le DOM.
 
-### 6. Connaissances des Réseaux TCP/IP et des Protocoles HTTP
-- **Notes sur les réseaux** : Documentation sur les réseaux TCP/IP et le protocole HTTP.
-- **Exemples d'utilisation de Postman** : Captures d'écran et descriptions de requêtes HTTP.
+5. **Intégration continue et contrôle qualité avec GitLab**
+   * **Introduction à GitLab CI/CD:**
+     * Apprenez les bases de l'intégration continue et du déploiement continu (CI/CD) avec GitLab.
+     * Créez un pipeline simple pour automatiser l'exécution de vos tests Selenium.
+   * **Pratiques de contrôle qualité:**
+     * Étudiez les pratiques de contrôle qualité, comme les revues de code et les tests automatisés.
+
+6. **Connaissances des réseaux TCP/IP et des protocoles HTTP**
+   * **Réseaux TCP/IP:**
+     * Comprenez les principes de base des réseaux, y compris les adresses IP, les sous-réseaux, et les protocoles de transport.
+   * **Protocole HTTP:**
+     * Étudiez le fonctionnement du protocole HTTP, y compris les méthodes de requête et les codes de statut.
+     * Utilisez des outils comme Postman pour envoyer des requêtes HTTP et analyser les réponses.
 
 ## Comment Utiliser ce Dépôt
 
