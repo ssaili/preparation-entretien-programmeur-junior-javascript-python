@@ -34,7 +34,7 @@ RHEL est conçu pour être utilisé dans des environnements de production, offra
 
 ### Exercices pratiques 🛠️
 
-- **Identifier les composants d'un système Linux :** Sur mon terminal macOS, j'utilise la commande `uname -a` pour afficher des informations sur mon système, voici ce qu'il affiche:
+- **Identifier les composants d'un système Linux :** Sur mon terminal macOS, j'ai utilisé la commande `uname -a` pour afficher des informations sur mon système, voici ce qu'il a affiché:
 
   ```
   Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
@@ -50,11 +50,11 @@ RHEL est conçu pour être utilisé dans des environnements de production, offra
 
 ### Exercices pratiques 🔧
 
-- **Navigation dans le système de fichiers :** J’utilise `pwd` pour afficher le répertoire courant, `ls` pour lister le contenu du répertoire courant, et `cd nomRepertoire` pour changer de répertoire. Je crée un répertoire avec `mkdir nomRepertoire` puis un fichier avec `touch nomFichier.extension`.
+- **Navigation dans le système de fichiers :** J’ai utilisé `pwd` pour afficher le répertoire courant, `ls` pour lister le contenu du répertoire courant, et `cd nomRepertoire` pour changer de répertoire. J’ai créé un répertoire avec `mkdir nomRepertoire` puis un fichier avec `touch nomFichier.extension`.
 
-- **Gestion des processus :** J’utilise la commande `ps aux` via le terminal pour lister les processus en cours (ou `top` pour une liste dynamique des processus). Ensuite, pour terminer un processus j’utilise la commande `kill` suivie du PID du processus.
+- **Gestion des processus :** J’ai utilisé la commande `ps aux` via le terminal pour lister les processus en cours (ou `top` pour une liste dynamique des processus). Ensuite, pour terminer un processus j’ai utilisé la commande `kill` suivie du PID du processus.
 
-- **Permissions :** Je crée un fichier texte avec `touch fichier.txt`, modifie ses permissions avec `chmod numeroDePermission fichier.txt`, et change son propriétaire avec `chown nomProprietaire fichier.txt`.
+- **Permissions :** J’ai créé un fichier texte avec `touch fichier.txt`, modifié ses permissions avec `chmod numeroDePermission fichier.txt`, et changé son propriétaire avec `chown nomProprietaire fichier.txt`.
 
 ## Outils et configurations RHEL
 
