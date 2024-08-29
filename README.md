@@ -12,9 +12,8 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
      * Explorez les outils spécifiques à RHEL pour le développement.
      * Apprenez à utiliser des gestionnaires de paquets comme `yum` pour installer et gérer des logiciels.
 
-2. **Installation d'Ubuntu**
-   * **Installation d'Ubuntu:**
-     * Installez Ubuntu sur votre machine (ou utilisez une machine virtuelle).
+2. **Installation et configuration d'Ubuntu**
+     * Installez et configurez Ubuntu sur votre machine (ou utilisez une machine virtuelle).
 
 3. **Bases de Python et JavaScript**
    * **Python:**
