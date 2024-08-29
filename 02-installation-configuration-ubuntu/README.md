@@ -4,7 +4,7 @@ L'objectif de cette étape est d’installer Ubuntu. J'ai listé dans ce fichier
 
 **Note :** Je travaille sous macOS et j’ai décidé d’installer Ubuntu avec **UTM** (un logiciel de virtualisation gratuit et open source pour macOS).
 
-### Étapes d'installation 🛠️
+## Étapes d'installation 🛠️
 
 1. **Téléchargement de UTM** 📥
    * Je me suis rendu sur le site officiel de UTM et j'ai téléchargé la dernière version de l'application.
