@@ -9,7 +9,7 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
      * Familiarisez-vous avec les concepts de base des systèmes d'exploitation GNU/Linux, en particulier RHEL.
      * Pratiquez les commandes de base du terminal : navigation dans le système de fichiers, gestion des processus, et permissions.
    * **Outils et configurations RHEL:**
-     * Explorez les outils spécifiques à RHEL pour le développement et le déploiement.
+     * Explorez les outils spécifiques à RHEL pour le développement.
      * Apprenez à utiliser des gestionnaires de paquets comme `yum` pour installer et gérer des logiciels.
 
 2. **Installation et configuration d'Ubuntu**
