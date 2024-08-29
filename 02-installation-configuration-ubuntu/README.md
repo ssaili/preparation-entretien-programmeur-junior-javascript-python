@@ -32,7 +32,3 @@ L'objectif de cette étape est d’installer Ubuntu. J'ai listé dans ce fichier
      sudo apt update (télécharge les informations les plus récentes sur les paquets)
      sudo apt upgrade (effectue la mise à jour des paquets installés vers leurs nouvelles versions)
      ```
-   * J'ai installé les outils nécessaires pour le partage du presse-papiers et des répertoires entre ma machine virtuelle et l’environnement hôte :
-     ```bash
-     sudo apt install spice-vdagent spice-webdavd
-     ```
