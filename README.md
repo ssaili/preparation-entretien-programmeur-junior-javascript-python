@@ -1,5 +1,3 @@
-Voici le fichier `README.md` modifié avec les sections déplacées dans les parties correspondantes :
-
 # Préparation Entretien - Programmeur Junior JavaScript - Python
 
 Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junior. Ce dépôt regroupe mes travaux et apprentissages sur les technologies JavaScript et Python, ainsi que d'autres compétences pertinentes pour le poste. Les étapes de révision suivantes ont été générées via plusieurs prompts successifs sur ChatGPT pour être le plus en accord possible avec les attentes du poste. Chaque étape de ma préparation est organisée dans un dossier distinct, permettant de consulter facilement l'avancée de mes travaux effectués en amont de l'entretien.
