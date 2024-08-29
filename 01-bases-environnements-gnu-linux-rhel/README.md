@@ -1,3 +1,5 @@
+Dans ce fichier, j'ai listé les connaissances acquises suite à ma recherche sur les bases des environnements GNU/Linux-RHEL.
+
 **Note :** Je travaille sous macOS, mais cela ne pose pas de problème pour cette partie, car macOS et Linux partagent les mêmes commandes via le terminal.
 
 # Bases des environnements GNU/Linux-RHEL
@@ -38,7 +40,7 @@ RHEL est conçu pour être utilisé dans des environnements de production, offra
   Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000 arm64
   ```
 
-  Cette ligne indique la version du noyau Darwin utilisée par macOS, précisant la date de compilation, le numéro de version spécifique du noyau et le type de processeur utilisé (ARM64) .
+  Cette ligne indique la version du noyau Darwin utilisée par macOS, précisant la date de compilation, le numéro de version spécifique du noyau et le type de processeur utilisé (ARM64).
 
 - **Comparer les distributions :** Recherchez les différences entre RHEL et d'autres distributions comme Ubuntu, en termes de gestion des paquets, d'utilisation, et de public cible.
 
