@@ -19,9 +19,9 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
      * Installez Ubuntu sur votre machine (ou utilisez une machine virtuelle).
 
 3. **Bases de Python et JavaScript**
+   * **Python:**
    * **Configuration pour le développement Python:**
        * Configurez votre environnement pour le développement en Python, en installant les bibliothèques nécessaires.
-   * **Python:**
      * Revoyez les concepts fondamentaux de Python : syntaxe, structures de données (listes, dictionnaires), boucles, fonctions, et gestion des exceptions.
      * Écrivez des scripts simples pour renforcer votre compréhension, comme un script de calcul de la somme de nombres pairs dans une liste.
    * **JavaScript:**
