@@ -1,6 +1,6 @@
-Dans ce fichier, j'ai listé les connaissances acquises suite à ma recherche sur les bases des environnements GNU/Linux-RHEL.
+Dans ce fichier, j'ai listé les connaissances acquises suite à ma recherche sur les bases des environnements GNU/Linux-RHEL. 📚
 
-**Note :** Je travaille sous macOS, mais cela ne pose pas de problème pour cette partie, car macOS et Linux partagent les mêmes commandes via le terminal.
+**Note :** Je travaille sous macOS, mais cela ne pose pas de problème pour cette partie, car macOS et Linux partagent les mêmes commandes via le terminal. 💻
 
 # Bases des environnements GNU/Linux-RHEL
 
@@ -8,11 +8,11 @@ Dans ce fichier, j'ai listé les connaissances acquises suite à ma recherche su
 
 ### Familiarisation avec les concepts de base des systèmes d'exploitation GNU/Linux, en particulier RHEL
 
-**Résumé des concepts :**
+**Résumé des concepts :** 📝
 
 Le projet GNU a été lancé en 1983 avec l'objectif de créer un système d'exploitation open source. Bien que le projet GNU ait développé de nombreux composants essentiels d'un système d'exploitation (outils et logiciels comme GNU Bash ou GNU Parted), il lui manquait un noyau fonctionnel. C'est là qu'intervient Linux, un noyau développé par Linus Torvalds en 1991.
 
-**Le Noyau Linux**
+**Le Noyau Linux** 🐧
 
 Le noyau Linux est le composant principal d'un système d'exploitation Linux. Il agit comme une interface entre le matériel de l'ordinateur et les processus (programme en cours d'exécution sur un ordinateur), gérant les ressources du système de manière efficace. Voici quelques-unes de ses fonctions clés :
 
@@ -22,7 +22,7 @@ Le noyau Linux est le composant principal d'un système d'exploitation Linux. Il
 
 Sans un noyau fonctionnel, le système d'exploitation ne peut pas opérer.
 
-**Red Hat Enterprise Linux (RHEL)**
+**Red Hat Enterprise Linux (RHEL)** 🎩
 
 RHEL est une distribution commerciale de Linux développée par Red Hat. Elle est largement utilisée dans les environnements professionnels et les serveurs en raison de sa stabilité, de son support technique et de ses fonctionnalités avancées pour la sécurité et la gestion des systèmes. Voici quelques caractéristiques spécifiques à RHEL :
 
@@ -32,7 +32,7 @@ RHEL est une distribution commerciale de Linux développée par Red Hat. Elle es
 
 RHEL est conçu pour être utilisé dans des environnements de production, offrant des fonctionnalités robustes pour le déploiement et la gestion des systèmes à grande échelle.
 
-### Exercices pratiques
+### Exercices pratiques 🛠️
 
 - **Identifier les composants d'un système Linux :** Sur mon terminal macOS, j'utilise la commande `uname -a` pour afficher des informations sur mon système, voici ce qu'il affiche:
 
@@ -48,7 +48,7 @@ RHEL est conçu pour être utilisé dans des environnements de production, offra
 
 ## Pratique des commandes de base du terminal
 
-### Exercices pratiques
+### Exercices pratiques 🔧
 
 - **Navigation dans le système de fichiers :** J’utilise `pwd` pour afficher le répertoire courant, `ls` pour lister le contenu du répertoire courant, et `cd nomRepertoire` pour changer de répertoire. Je crée un répertoire avec `mkdir nomRepertoire` puis un fichier avec `touch nomFichier.extension`.
 
@@ -58,18 +58,18 @@ RHEL est conçu pour être utilisé dans des environnements de production, offra
 
 ## Outils et configurations RHEL
 
-### Exploration des outils spécifiques à RHEL pour le développement
+### Exploration des outils spécifiques à RHEL pour le développement 🛠️
 
 **Résumé des outils RHEL :**
 
 Red Hat Enterprise Linux propose des outils spécifiques pour le développement, notamment le Red Hat Developer Toolset, qui inclut des versions stables et récentes de GCC (GNU Compiler Collection : Un ensemble de compilateurs pour divers langages de programmation.), GDB (GNU Debugger : Un débogueur avancé pour analyser et corriger les erreurs dans les programmes).
 
-### Utilisation de gestionnaires de paquets comme yum
+### Utilisation de gestionnaires de paquets comme yum 📦
 
 **Résumé de yum :**
 
 YUM (Yellowdog Updater, Modified) est un gestionnaire de paquets pour RHEL qui permet d'installer, mettre à jour, et supprimer des logiciels tout en gérant automatiquement les dépendances nécessaires.
 
-### Exercices pratiques
+### Exercices pratiques 🧪
 
 - **Simulation de commandes yum :** Je suis sur macOS, j’utilise brew comme gestionnaire de paquets. Après avoir consulté la documentation de yum, j’ai remarqué que YUM et Homebrew partagent des similitudes telles que l'utilisation de commandes pour installer (`yum install` / `brew install`), mettre à jour (`yum update` / `brew upgrade`), et supprimer (`yum remove` / `brew uninstall`) des paquets.
