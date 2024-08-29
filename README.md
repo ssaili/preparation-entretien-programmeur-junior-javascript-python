@@ -20,26 +20,22 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
 
 3. **Bases de Python et JavaScript**
    * **Python:**
-   * **Configuration pour le développement Python:**
-       * Configurez votre environnement pour le développement en Python, en installant les bibliothèques nécessaires.
+     * Configurez votre environnement pour le développement en Python, en installant les bibliothèques nécessaires.
      * Revoyez les concepts fondamentaux de Python : syntaxe, structures de données (listes, dictionnaires), boucles, fonctions, et gestion des exceptions.
      * Écrivez des scripts simples pour renforcer votre compréhension, comme un script de calcul de la somme de nombres pairs dans une liste.
    * **JavaScript:**
-     * **Configuration pour le développement JavaScript:**
-       * Configurez votre environnement pour le développement en JavaScript, en installant les bibliothèques nécessaires.
+     * Configurez votre environnement pour le développement en JavaScript, en installant les bibliothèques nécessaires.
      * Étudiez les bases de JavaScript : syntaxe, types de données, fonctions, et manipulation du DOM.
      * Créez un petit projet, comme une page web interactive, pour appliquer vos connaissances.
 
 5. **Introduction à Selenium**
-    * **Configuration pour Selenium:**
-      * Configurez votre environnement pour le développement avec Selenium, en installant les bibliothèques nécessaires.
-   * **Concepts de base de Selenium:**
-     * Comprenez ce qu'est Selenium et comment il est utilisé pour l'automatisation des tests.
-     * Assurez-vous que Selenium fonctionne correctement sur Ubuntu en exécutant des scripts de test simples.
+    * Configurez votre environnement pour le développement avec Selenium, en installant les bibliothèques nécessaires.
+    * Comprenez ce qu'est Selenium et comment il est utilisé pour l'automatisation des tests.
+    * Assurez-vous que Selenium fonctionne correctement sur Ubuntu en exécutant des scripts de test simples.
    * **Scripts Selenium en JavaScript:**
-     * Écrivez un script Selenium simple en Python pour automatiser une tâche web (par exemple, ouvrir une page et vérifier le titre).
-     * Répétez l'exercice en JavaScript pour comprendre les différences entre les deux langages.
-     * Explorez l'exécution de JavaScript dans Selenium pour manipuler le DOM.
+    * Écrivez un script Selenium simple en Python pour automatiser une tâche web (par exemple, ouvrir une page et vérifier le titre).
+    * Répétez l'exercice en JavaScript pour comprendre les différences entre les deux langages.
+    * Explorez l'exécution de JavaScript dans Selenium pour manipuler le DOM.
 
 7. **Intégration continue et contrôle qualité avec GitLab**
    * **Introduction à GitLab CI/CD:**
