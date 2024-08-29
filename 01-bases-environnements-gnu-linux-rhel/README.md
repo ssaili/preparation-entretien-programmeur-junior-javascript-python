@@ -1,4 +1,4 @@
-Dans ce fichier, j'ai listé les connaissances acquises suite à ma recherche sur les bases des environnements GNU/Linux-RHEL. 📚
+L'objectif de cette étape est d'apprendre les fondamentaux des environnements GNU/Linux-RHEL, j'ai listé dans ce fichier les connaissances acquises suite à ma recherche. 📚
 
 **Note :** Je travaille sous macOS, mais cela ne pose pas de problème pour cette partie, car macOS et Linux partagent les mêmes commandes via le terminal. 💻
 
