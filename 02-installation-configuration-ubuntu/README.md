@@ -15,16 +15,16 @@ L'objectif de cette étape est d’installer Ubuntu. J'ai listé dans ce fichier
 
 3. **Création d'une nouvelle machine virtuelle dans UTM** 💻
    * J'ai ouvert UTM et j'ai cliqué sur le bouton “+” pour créer une nouvelle machine virtuelle.
-   * J'ai sélectionné “Virtualize” pour une meilleure performance et j'ai choisi l'architecture ARM64.
+   * J'ai sélectionné “Virtualize” pour une meilleure performance et j'ai choisi linux.
 
 4. **Configuration de la machine virtuelle** ⚙️
    * **Chargement de l'image ISO** : Dans les paramètres de la VM, je suis allé dans l'onglet “Boot ISO Image” et j'ai sélectionné l'image ISO d'Ubuntu que j'avais téléchargée.
-   * **Allocation des ressources** : J'ai assigné au moins 4 Go de RAM et configuré le stockage à un minimum de 25 Go.
-   * **Configuration du réseau** : Je me suis assuré que la VM était configurée pour utiliser le réseau de mon Mac pour accéder à Internet.
+   * **Allocation des ressources** : Il faut assigné au moins 4 Go de RAM et configuré le stockage à un minimum de 25 Go.
+   * **Sauvegarder la configuration** : J'ai ensuite sauvegarder la configuration en cliquant sur “enregistrer“.
 
 5. **Installation d'Ubuntu** 🐧
    * J'ai démarré la VM en cliquant sur le bouton “Play”.
-   * J'ai suivi les instructions à l'écran pour installer Ubuntu et j'ai accepté les paramètres par défaut proposés par l'installateur.
+   * J'ai suivi les instructions à l'écran pour installer Ubuntu.
 
 6. **Configuration post-installation** 🔧
    * Une fois l'installation terminée, j'ai mis à jour le système en exécutant les commandes suivantes dans le terminal Ubuntu :
