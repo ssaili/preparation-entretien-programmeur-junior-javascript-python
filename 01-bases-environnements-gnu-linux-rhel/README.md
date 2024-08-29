@@ -1,8 +1,4 @@
----
-
 **Note :** Je travaille sous macOS, mais cela ne pose pas de problème pour cette partie, car macOS et Linux partagent les mêmes commandes via le terminal.
-
----
 
 # Bases des environnements GNU/Linux-RHEL
 
