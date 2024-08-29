@@ -20,16 +20,16 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
 
 3. **Bases de Python et JavaScript**
    * **Python:**
-     * Configurez votre environnement pour le développement en Python, en installant les bibliothèques nécessaires.
+     * Configurez votre environnement pour le développement en Python pour Ubuntu, en installant les bibliothèques nécessaires.
      * Revoyez les concepts fondamentaux de Python : syntaxe, structures de données (listes, dictionnaires), boucles, fonctions, et gestion des exceptions.
      * Écrivez des scripts simples pour renforcer votre compréhension, comme un script de calcul de la somme de nombres pairs dans une liste.
    * **JavaScript:**
-     * Configurez votre environnement pour le développement en JavaScript, en installant les bibliothèques nécessaires.
+     * Configurez votre environnement pour le développement en JavaScript pour Ubuntu, en installant les bibliothèques nécessaires.
      * Étudiez les bases de JavaScript : syntaxe, types de données, fonctions, et manipulation du DOM.
      * Créez un petit projet, comme une page web interactive, pour appliquer vos connaissances.
 
 5. **Introduction à Selenium**
-    * Configurez votre environnement pour le développement avec Selenium, en installant les bibliothèques nécessaires.
+    * Configurez votre environnement pour le développement avec Selenium pour Ubuntu, en installant les bibliothèques nécessaires.
     * Comprenez ce qu'est Selenium et comment il est utilisé pour l'automatisation des tests.
     * Assurez-vous que Selenium fonctionne correctement sur Ubuntu en exécutant des scripts de test simples.
    * **Scripts Selenium en JavaScript:**
