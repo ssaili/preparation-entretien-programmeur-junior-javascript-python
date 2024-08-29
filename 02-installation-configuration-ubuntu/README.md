@@ -1,4 +1,4 @@
-# Installation d'Ubuntu avec UTM 🚀
+# Installation et configuration d'Ubuntu 🚀
 
 L'objectif de cette étape est d’installer Ubuntu. J'ai listé dans ce fichier les étapes qui m’ont permis d’y parvenir.
 
