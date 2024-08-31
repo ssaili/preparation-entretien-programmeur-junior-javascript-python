@@ -7,11 +7,11 @@ L'objectif de cette étape est d’installer Ubuntu. J'ai listé dans ce fichier
 ## Étapes d'installation 🛠️
 
 1. **Téléchargement de UTM** 📥
-   * Je me suis rendu sur le site officiel de UTM et j'ai téléchargé la dernière version de l'application.
+   * Je me suis rendu sur le site officiel de [UTM](https://mac.getutm.app/) et j'ai téléchargé la dernière version de l'application.
    * J'ai installé UTM comme n'importe quelle autre application sur macOS.
 
 2. **Téléchargement de l'image ISO d'Ubuntu** 📥
-   * Je suis allé sur le site d'Ubuntu et j'ai téléchargé l'image ISO de la dernière version compatible ARM (Ubuntu 22.04.4 LTS).
+   * Je suis allé sur le site d'Ubuntu et j'ai téléchargé l'image ISO de la dernière version compatible ARM ([Ubuntu 22.04.4 LTS](https://cdimage.ubuntu.com/jammy/daily-live/current/)).
 
 3. **Création d'une nouvelle machine virtuelle dans UTM** 💻
    * J'ai ouvert UTM et j'ai cliqué sur le bouton “+” pour créer une nouvelle machine virtuelle.
