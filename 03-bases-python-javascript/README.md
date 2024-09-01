@@ -4,7 +4,7 @@ L'objectif de cette étape était de configurer les environnements de développe
 
 ## Python 🐍
 
-### Étapes de configuration 🛠️
+## Configuration de l'environnement de développement pour Python sur Ubuntu 🛠️
 
 1. **Installation de Visual Studio Code** 📥
    - J'ai téléchargé la version Ubuntu compatible ARM de Visual Studio Code depuis [le site officiel](https://code.visualstudio.com/download#).
