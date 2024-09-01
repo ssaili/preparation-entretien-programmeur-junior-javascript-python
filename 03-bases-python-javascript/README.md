@@ -193,7 +193,7 @@ except ZeroDivisionError:
 
 ### Modules et packages
 
-J'ai structuré le code Python en utilisant des modules et packages. J'ai utilisé `import` pour inclure des modules :
+En Python, un **module** est simplement un fichier contenant du code Python. Les modules vous permettent de structurer votre programme en petits morceaux réutilisables. Vous pouvez inclure un module dans votre code en utilisant le mot-clé `import`. Par exemple, le module `math` contient des fonctions mathématiques utiles :
 
 ```python
 import math
@@ -203,9 +203,17 @@ print(math.sqrt(16))  # Utilisation d'une fonction du module math
 
 **Résultat** : `4.0`
 
+Un **package** est un dossier contenant un ensemble de modules Python. Les packages permettent d'organiser votre code en sous-dossiers et de créer des hiérarchies de modules. De nombreux packages populaires sont disponibles sur des dépôts en ligne tels que PyPI et peuvent être facilement installés à l'aide d'un gestionnaire de packages comme `pip`. Vous pouvez inclure des modules et des packages externes dans votre code avec `import`, et utiliser `from` pour importer directement un élément spécifique depuis un module :
+
+```python
+from math import sqrt
+
+print(sqrt(16))  # Importation directe de la fonction sqrt
+```
+
 ### Extraction et transformation de données
 
-J'ai utilisé des bibliothèques comme `requests` et `Beautiful Soup` pour récupérer et analyser des données en ligne. Voici un exemple simplifié :
+L'extraction de données web est un processus automatisé de récupération des données d'internet. Le terme ETL signifie extraction, transformation et chargement, et il est utilisé pour désigner le processus de récupération de données d'un endroit, de modification légère de ces données, et de leur sauvegarde dans un autre endroit. Les bibliothèques Python `requests` et `Beautiful Soup` peuvent vous aider à récupérer et analyser les données d'internet :
 
 ```python
 import requests
@@ -214,12 +222,12 @@ from bs4 import BeautifulSoup
 response = requests.get('https://example.com')
 soup = BeautifulSoup(response.text, 'html.parser')
 
-print(soup.title.string)
+print(soup.title.string)  # Extraction du titre de la page
 ```
 
 ### Lecture et écriture de fichiers
 
-J'ai utilisé la fonction `open()` pour lire et écrire des fichiers :
+Pour lire et écrire des fichiers en Python, vous pouvez utiliser la fonction intégrée `open()`, qui requiert deux paramètres : le nom du fichier et le mode. Les modes courants sont `"r"` pour la lecture, `"w"` pour l’écriture (écrasement) et `"a"` pour l’ajout. Voici comment vous pouvez lire et écrire dans un fichier :
 
 ```python
 # Écriture dans un fichier
