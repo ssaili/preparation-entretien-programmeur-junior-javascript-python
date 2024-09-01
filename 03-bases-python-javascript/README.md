@@ -66,14 +66,36 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
 ### Listes et tuples
 
 - **Listes** (modifiables) :
+  Les listes en Python sont des collections ordonnées d'éléments qui peuvent être modifiés après leur création. Cela signifie que vous pouvez ajouter, supprimer ou modifier des éléments dans une liste.
+
   ```python
   plateformes_sociales_liste = ["Facebook", "Instagram", "Snapchat", "Twitter"]
   ```
 
+  - **Ajouter des valeurs** : Vous pouvez ajouter des éléments à une liste en utilisant la méthode `append()` pour ajouter un élément à la fin, ou `insert()` pour insérer un élément à une position spécifique.
+    ```python
+    plateformes_sociales_liste.append("LinkedIn")  # Ajoute "LinkedIn" à la fin de la liste
+    plateformes_sociales_liste.insert(1, "WhatsApp")  # Insère "WhatsApp" à la position 1
+    ```
+
+  - **Accéder aux valeurs** : Vous pouvez accéder aux éléments d'une liste en utilisant des indices, où l'indice commence à 0 pour le premier élément.
+    ```python
+    premier_element = plateformes_sociales_liste[0]  # Accède au premier élément, "Facebook"
+    dernier_element = plateformes_sociales_liste[-1]  # Accède au dernier élément, "LinkedIn"
+    ```
+
 - **Tuples** (immuables) :
+  Les tuples sont similaires aux listes, mais ils sont immuables, ce qui signifie que vous ne pouvez pas modifier leurs éléments après leur création. Les tuples sont souvent utilisés pour regrouper des données qui ne doivent pas changer.
+
   ```python
   plateformes_sociales_tuple = ("Facebook", "Instagram", "TikTok", "Twitter")
   ```
+
+  - **Accéder aux valeurs** : Comme les listes, vous pouvez accéder aux éléments d'un tuple en utilisant des indices.
+    ```python
+    premier_element_tuple = plateformes_sociales_tuple[0]  # Accède au premier élément, "Facebook"
+    dernier_element_tuple = plateformes_sociales_tuple[-1]  # Accède au dernier élément, "Twitter"
+    ```
   
 - **Méthodes de liste courantes** :
   - `extend(iterable)`: Ajoute tous les éléments d'un itérable (comme une liste) à la fin de la liste actuelle.
