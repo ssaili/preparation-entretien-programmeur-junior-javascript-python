@@ -1,6 +1,4 @@
-# Configuration de l'environnement et concepts fondamentaux 🚀
-
-## Configurez votre environnement pour le développement en Python sur Ubuntu
+# Bases de Python et JavaScript 🚀
 
 L'objectif de cette étape était de configurer mon environnement de développement Python sur Ubuntu en installant les outils et bibliothèques nécessaires.
 
