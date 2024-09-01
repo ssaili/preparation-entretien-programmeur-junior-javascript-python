@@ -74,9 +74,14 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
   ```python
   plateformes_sociales_tuple = ("Facebook", "Instagram", "TikTok", "Twitter")
   ```
-
+  
 - **Méthodes de liste courantes** :
-  - `extend()`, `insert()`, `pop()`, `index()`, `count()`, `reverse()`
+  - `extend(iterable)`: Ajoute tous les éléments d'un itérable (comme une liste) à la fin de la liste actuelle.
+  - `insert(index, element)`: Insère un élément à la position spécifiée dans la liste.
+  - `pop([index])`: Supprime et renvoie l'élément à la position donnée dans la liste. Si aucun index n'est spécifié, supprime et renvoie le dernier élément.
+  - `index(element)`: Renvoie l'indice de la première occurrence de l'élément spécifié dans la liste.
+  - `count(element)`: Renvoie le nombre de fois que l'élément spécifié apparaît dans la liste.
+  - `reverse()`: Inverse l'ordre des éléments dans la liste.
 
 ### Dictionnaires
 
@@ -89,7 +94,12 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
   ```
 
 - **Méthodes de dictionnaire courantes** :
-  - `keys()`, `values()`, `items()`, `get(clé)`, `pop(clé)`, `clear()`
+  - `keys()`: Retourne une vue sur toutes les clés du dictionnaire.
+  - `values()`: Retourne une vue sur toutes les valeurs du dictionnaire.
+  - `items()`: Retourne une vue sur tous les couples (clé, valeur) du dictionnaire.
+  - `get(clé)`: Retourne la valeur associée à la clé spécifiée. Si la clé n'existe pas, retourne `None`.
+  - `pop(clé)`: Supprime la clé spécifiée et retourne la valeur associée. Si la clé n'existe pas, lève une exception `KeyError`.
+  - `clear()`: Supprime tous les éléments du dictionnaire, le rendant vide.
 
 ### Conditions
 
