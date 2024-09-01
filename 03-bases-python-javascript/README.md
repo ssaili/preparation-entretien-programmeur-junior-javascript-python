@@ -85,12 +85,27 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
 
 ### Dictionnaires
 
+Un dictionnaire en Python est une structure de données qui permet d'enregistrer des paires clés-valeurs, où chaque clé unique est associée à une valeur.
+
 - **Déclaration d'un dictionnaire** :
   ```python
   infos_utilisateur = {
       "prenom": "iliass",
       "age": 32,
   }
+  ```
+
+- **Ajouter une clé et une valeur** :
+  Pour ajouter une nouvelle paire clé-valeur, vous pouvez simplement assigner une valeur à une nouvelle clé :
+  ```python
+  infos_utilisateur["ville"] = "Paris"
+  ```
+
+- **Accéder à une valeur via sa clé** :
+  Pour accéder à la valeur associée à une clé spécifique, utilisez la clé entre crochets :
+  ```python
+  prenom = infos_utilisateur["prenom"]
+  print(prenom)  # Affiche : iliass
   ```
 
 - **Méthodes de dictionnaire courantes** :
