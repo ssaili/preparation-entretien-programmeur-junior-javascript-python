@@ -1,6 +1,6 @@
 # Bases de Python et JavaScript 🚀
 
-L'objectif de cette étape était de configurer mon environnement de développement Python sur Ubuntu en installant les outils et bibliothèques nécessaires.
+L'objectif de cette étape était de configurer les environnements de développement pour Python et JavaScript sur Ubuntu, en installant les outils et bibliothèques nécessaires tout en apprenant les bases de ces deux langages.
 
 ## Python 🐍
 
