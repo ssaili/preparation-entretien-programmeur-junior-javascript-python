@@ -132,7 +132,7 @@ for i in range(5):
 - **Boucle while** : Continue tant qu'une condition est vraie.
 
 ```python
-print('\nBoucle While:')
+print('Boucle While:')
 compte = 0
 while compte < 5:
     print(compte)
