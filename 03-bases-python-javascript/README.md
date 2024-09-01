@@ -11,7 +11,7 @@ L'objectif de cette étape était de configurer les environnements de développe
    - J'ai ouvert le terminal et navigué vers le répertoire contenant le fichier d’installation de Visual Studio Code.
    - J'ai installé Visual Studio Code en exécutant la commande suivante :
      ```bash
-     sudo apt install ./nom_du_fichier_d’installation.deb
+     sudo apt install nom_du_fichier_d’installation.deb
      ```
 
 2. **Configuration de Visual Studio Code** ⚙️
