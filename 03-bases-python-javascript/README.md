@@ -1,6 +1,6 @@
 # Bases de Python et JavaScript 🚀
 
-L'objectif de cette étape était de configurer les environnements de développement pour Python et JavaScript sur Ubuntu, en installant les outils et bibliothèques nécessaires tout en apprenant les bases de ces deux langages.
+L'objectif de cette étape était de configurer les environnements de développement pour Python et JavaScript sur Ubuntu, en installant les outils et bibliothèques nécessaires tout en apprenant les bases de ces deux langages. Pour la partie Python, j’ai suivi le cours suivant du site OpenClassrooms : [Apprenez les bases du langage Python](https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python), qui m'a délivré le diplôme suivant : [Diplôme OpenClassrooms](URL_DU_DIPLOME). Comme j'avais déjà une expertise en JavaScript, je détaillerai uniquement la partie de "configuration de l'environnement de développement JavaScript sous Ubuntu". 
 
 ## Python 🐍
 
