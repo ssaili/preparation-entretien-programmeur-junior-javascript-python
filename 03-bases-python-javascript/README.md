@@ -84,6 +84,14 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
     dernier_element = plateformes_sociales_liste[-1]  # Accède au dernier élément, "LinkedIn"
     ```
 
+  - **Méthodes de liste courantes** :
+     - `extend(iterable)`: Ajoute tous les éléments d'un itérable (comme une liste) à la fin de la liste actuelle.
+     - `insert(index, element)`: Insère un élément à la position spécifiée dans la liste.
+     - `pop([index])`: Supprime et renvoie l'élément à la position donnée dans la liste. Si aucun index n'est spécifié, supprime et renvoie le dernier élément.
+     - `index(element)`: Renvoie l'indice de la première occurrence de l'élément spécifié dans la liste.
+     - `count(element)`: Renvoie le nombre de fois que l'élément spécifié apparaît dans la liste.
+     - `reverse()`: Inverse l'ordre des éléments dans la liste.
+
 - **Tuples** (immuables) :
   Les tuples sont similaires aux listes, mais ils sont immuables, ce qui signifie que vous ne pouvez pas modifier leurs éléments après leur création. Les tuples sont souvent utilisés pour regrouper des données qui ne doivent pas changer.
 
@@ -96,14 +104,6 @@ Cette section couvre les concepts de base de Python, incluant la syntaxe, les st
     premier_element_tuple = plateformes_sociales_tuple[0]  # Accède au premier élément, "Facebook"
     dernier_element_tuple = plateformes_sociales_tuple[-1]  # Accède au dernier élément, "Twitter"
     ```
-  
-- **Méthodes de liste courantes** :
-  - `extend(iterable)`: Ajoute tous les éléments d'un itérable (comme une liste) à la fin de la liste actuelle.
-  - `insert(index, element)`: Insère un élément à la position spécifiée dans la liste.
-  - `pop([index])`: Supprime et renvoie l'élément à la position donnée dans la liste. Si aucun index n'est spécifié, supprime et renvoie le dernier élément.
-  - `index(element)`: Renvoie l'indice de la première occurrence de l'élément spécifié dans la liste.
-  - `count(element)`: Renvoie le nombre de fois que l'élément spécifié apparaît dans la liste.
-  - `reverse()`: Inverse l'ordre des éléments dans la liste.
 
 ### Dictionnaires
 
