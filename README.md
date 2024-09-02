@@ -31,12 +31,12 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
      * Écrivez un script Selenium simple en Python pour automatiser une tâche web (par exemple, ouvrir une page et vérifier le titre).
      * Répétez l'exercice en JavaScript pour comprendre les différences entre les deux langages.
 
-5. **Intégration continue et contrôle qualité avec GitLab** 🔄🛠️
-   * **Introduction à GitLab CI/CD :**
-     * Apprenez les bases de l'intégration continue et du déploiement continu (CI/CD) avec GitLab.
-     * Créez un pipeline simple pour automatiser l'exécution de vos tests Selenium.
+5. **Intégration continue et contrôle qualité** 🔄🛠️
+   * **Introduction à CI/CD :**
+     * Apprenez les bases de l'intégration continue et du déploiement continu (CI/CD).
+     * Découvrez ce qu’est un pipeline pour automatiser l'exécution de tests.
    * **Pratiques de contrôle qualité :**
-     * Étudiez les pratiques de contrôle qualité, comme les revues de code et les tests automatisés.
+     * Étudiez les pratiques de contrôle qualité du code.
 
 6. **Connaissances des réseaux TCP/IP et des protocoles HTTP** 🌐📡
    * **Réseaux TCP/IP :**
