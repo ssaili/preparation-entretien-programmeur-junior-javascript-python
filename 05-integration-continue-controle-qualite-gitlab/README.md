@@ -6,7 +6,7 @@ L'objectif de cette étape a été de comprendre les principes de l'intégration
 
 1. **Les bases de l'intégration continue et du déploiement continu (CI/CD)**
    - L'intégration continue (CI) est une pratique de développement logiciel où les développeurs intègrent fréquemment leur code dans un dépôt central. Cette intégration est suivie de tests automatisés pour garantir la fiabilité des modifications du code fusionné.
-   - Le déploiement continu (CD) étend cette pratique en automatisant le déploiement des applications à chaque modification validée, ce qui signifie la mise en production d’une application dans un environnement cible comme un serveur, afin qu'elle soit accessible aux utilisateurs finaux.
+   - Le déploiement continu (CD) étend cette pratique en automatisant le déploiement des applications à chaque modification validée, ce qui signifie la mise en production d’une application dans un environnement cible comme un serveur, afin qu'elle soit accessible aux utilisateurs finaux. Dans certains cas, CD peut aussi signifier que le code est prêt à être déployé à tout moment (livraison continue).
 
 2. **Découvrez ce qu’est un pipeline pour automatiser l'exécution de tests**
    - Un pipeline CI/CD est une série d'étapes automatisées qui permettent de construire, tester et déployer le code de manière efficace.
