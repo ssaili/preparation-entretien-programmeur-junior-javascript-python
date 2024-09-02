@@ -64,18 +64,20 @@ Ces scripts naviguent vers la page de [mon profil GitHub](https://github.com/ssa
 - **Script simple en Python** :
   ```python
   from selenium import webdriver
+  from selenium.webdriver.chrome.service import Service
   from selenium.webdriver.common.by import By
-
-  driver = webdriver.Chrome()
+   
+  service = Service(executable_path='/usr/bin/chromedriver')
+  driver = webdriver.Chrome(service=service)
   driver.get("https://github.com/ssaili")
   try:
-      element = driver.find_element(By.XPATH, "//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]")
-      assert element is not None
-      print("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'")
+     element = driver.find_element(By.XPATH, "//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]")
+     assert element is not None
+     print("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'")
   except:
-      print("Message non trouvé.")
+     print("Message non trouvé.")
   finally:
-      driver.quit()
+     driver.quit()
   ```
 
 ### Écrire un script Selenium en JavaScript 🖥️
