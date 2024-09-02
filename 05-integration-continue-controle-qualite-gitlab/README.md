@@ -1,16 +1,14 @@
 # Intégration continue et contrôle qualité 🔄🛠️
 
-L'objectif de cette étape est de comprendre les principes de l'intégration continue et du déploiement continu (CI/CD), ainsi que d'adopter les bonnes pratiques de contrôle qualité du code.
+L'objectif de cette étape a été de comprendre les principes de l'intégration continue et du déploiement continu (CI/CD), ainsi que d'adopter les bonnes pratiques de contrôle qualité du code.
 
 ## Introduction à CI/CD 🚀
 
-### Bases de l'intégration continue et du déploiement continu
-
-1. **Concepts fondamentaux de CI/CD**
+1. **Les bases de l'intégration continue et du déploiement continu (CI/CD)**
    - L'intégration continue (CI) est une pratique de développement logiciel où les développeurs intègrent fréquemment leur code dans un dépôt central. Cette intégration est suivie de tests automatisés pour garantir la fiabilité des modifications du code fusionné.
    - Le déploiement continu (CD) étend cette pratique en automatisant le déploiement des applications à chaque modification validée, ce qui signifie la mise en production d’une application dans un environnement cible comme un serveur, afin qu'elle soit accessible aux utilisateurs finaux.
 
-2. **Mise en place d'un pipeline CI/CD**
+2. **Découvrez ce qu’est un pipeline pour automatiser l'exécution de tests**
    - Un pipeline CI/CD est une série d'étapes automatisées qui permettent de construire, tester et déployer le code de manière efficace.
    - Des outils comme GitLab CI/CD facilitent la configuration et l'exécution de ces pipelines.
 
