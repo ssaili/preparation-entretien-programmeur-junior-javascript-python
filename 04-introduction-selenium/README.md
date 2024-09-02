@@ -40,7 +40,7 @@ L'objectif de cette étape a été de configurer mon environnement de développe
     ```
 
 3. **Installation du WebDriver** 🌐
-   - Le WebDriver est essentiel car il sert d'interface entre Selenium et le navigateur web. Il permet à Selenium de contrôler le navigateur de manière automatisée, en simulant des actions telles que le clic, la saisie de texte, et la navigation entre les pages. Chaque navigateur (Chrome, Firefox, etc.) nécessite son propre WebDriver spécifique. Pour installer le WebDriver, j'ai utilisé la commande suivante dans le terminal :
+   - Le WebDriver est essentiel car il sert d'interface entre Selenium et le navigateur web. Il permet à Selenium de contrôler le navigateur de manière automatisée, en simulant des actions telles que le clic, la saisie de texte, et la navigation entre les pages. Chaque navigateur (Chrome, Firefox, etc.) nécessite son propre WebDriver spécifique. J'utilise Chromium, pour installer le WebDriver de ce navigateur, j'ai utilisé la commande suivante dans le terminal :
      ```bash
      sudo apt install chromium-chromedriver
      ```
