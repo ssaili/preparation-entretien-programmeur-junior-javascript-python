@@ -49,7 +49,7 @@ Les tests unitaires se concentrent sur les plus petites unités de code, comme l
 
 ### Tests d'Intégration
 Les tests d'intégration vérifient que les différents modules ou services d'une application fonctionnent bien ensemble. Ils sont essentiels pour détecter les problèmes d'interaction entre les composants, qui ne seraient pas visibles lors des tests unitaires.  
-**Exemple :** Tester l'interaction entre un module de saisie de texte et un module de vérification orthographique pour s'assurer que les erreurs sont correctement identifiées et signalées.
+** Exemple : S'assurer qu'après la soumission d'un formulaire de contact, une notification de confirmation est envoyée à l'utilisateur.
 
 ### Tests End-to-End (E2E)
 Les tests end-to-end valident le fonctionnement complet d'une application du début à la fin, en simulant des scénarios réels d'utilisation. Ils se concentrent sur l'expérience utilisateur finale, vérifiant que tous les composants fonctionnent ensemble dans des conditions réalistes.  
