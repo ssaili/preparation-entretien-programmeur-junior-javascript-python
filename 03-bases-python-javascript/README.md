@@ -283,7 +283,7 @@ Ces étapes et concepts m'ont fourni une base solide pour le développement en P
 
 ## JavaScript ✨
 
-## Configuration de mon environnement de développement pour JavaScript sur Ubuntu 🛠️
+## Configuration de l'environnement de développement pour JavaScript sur Ubuntu 🛠️
 
 1. **Installation de Node.js** 📥
    - J'ai installé Node.js, un programme qui permet d'exécuter du JavaScript sur mon ordinateur sans navigateur. Il est essentiel pour utiliser des outils comme npm.
