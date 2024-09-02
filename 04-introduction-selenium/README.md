@@ -1,1 +1,98 @@
+# Introduction à Selenium 🕸️🔧
 
+L'objectif de cette étape est de configurer votre environnement de développement pour utiliser Selenium sur Ubuntu, en installant les bibliothèques nécessaires et en vous familiarisant avec l'automatisation des tests. Vous apprendrez à exécuter des scripts Selenium simples en Python et JavaScript pour automatiser des tâches web, et comprendrez comment Selenium peut être utilisé pour manipuler le DOM via JavaScript.
+
+## Configuration de l'environnement de développement pour Selenium sur Ubuntu 🛠️
+
+1. **Installation de Selenium et des dépendances** 📥
+   - Ouvrez un terminal et installez pip :
+     pip est un gestionnaire de paquets pour Python. Il est essentiel pour installer des packages Python tels que Selenium.
+     ```bash
+     sudo apt install python3-pip
+     ```
+   ### Installation de Selenium pour Python
+
+    Une fois pip installé, vous pouvez installer Selenium pour Python en exécutant la commande suivante dans le terminal :
+    ```bash
+    pip install selenium
+    ```
+  
+    ### Installation de Selenium pour JavaScript
+    
+    Pour installer Selenium pour JavaScript, vous devez d'abord avoir Node.js et npm installés sur votre système. Ensuite, exécutez la commande suivante dans le terminal :
+    ```bash
+    npm install selenium-webdriver
+    ```
+
+2. **Vérification de l'installation** ✅
+    ### Vérification pour Python
+
+    Pour vérifier si Selenium est bien installé pour Python via pip, vous pouvez exécuter la commande suivante dans le terminal :
+    
+    ```bash
+    pip show selenium
+    ```
+    ### Vérification pour JavaScript
+
+    Pour vérifier si Selenium WebDriver est installé pour JavaScript, exécutez la commande suivante dans le terminal :
+    ```bash
+    npm list selenium-webdriver
+    ```
+
+## Comprendre Selenium et son utilisation
+
+Selenium est un outil puissant pour l'automatisation des tests web, permettant de simuler des interactions utilisateur avec un navigateur web et facilitant ainsi les tests fonctionnels des applications web. Voici un aperçu des différents types de tests automatisés, notamment les tests unitaires, d'intégration, et end-to-end, ainsi que leur utilité, avec des exemples simples pour chacun :
+
+### Tests Unitaires
+Les tests unitaires se concentrent sur les plus petites unités de code, comme les fonctions ou les méthodes individuelles, pour s'assurer qu'elles fonctionnent correctement.  
+**Exemple :** Tester une fonction `somme(a, b)` qui retourne la somme de deux nombres pour vérifier qu'elle donne le résultat attendu, par exemple `somme(2, 3)` devrait retourner `5`.
+
+### Tests d'Intégration
+Les tests d'intégration vérifient que les différents modules ou services d'une application fonctionnent bien ensemble. Ils sont essentiels pour détecter les problèmes d'interaction entre les composants, qui ne seraient pas visibles lors des tests unitaires.  
+**Exemple :** Tester l'interaction entre un module de saisie de texte et un module de vérification orthographique pour s'assurer que les erreurs sont correctement identifiées et signalées.
+
+### Tests End-to-End (E2E)
+Les tests end-to-end valident le fonctionnement complet d'une application du début à la fin, en simulant des scénarios réels d'utilisation. Ils se concentrent sur l'expérience utilisateur finale, vérifiant que tous les composants fonctionnent ensemble dans des conditions réalistes.  
+**Exemple :** Simuler un utilisateur qui remplit un formulaire de contact sur un site web, en saisissant son nom, son adresse e-mail et son message, puis en soumettant le formulaire pour s'assurer qu'il reçoit une confirmation de soumission réussie.
+
+## Scripts Selenium en JavaScript et Python
+
+### Écrire un script Selenium en Python 🐍
+
+- **Script simple en Python** :
+  ```python
+  from selenium import webdriver
+
+  driver = webdriver.Chrome()
+  driver.get("https://www.example.com")
+  assert "Example Domain" in driver.title
+  driver.quit()
+  ```
+
+### Écrire un script Selenium en JavaScript 🖥️
+
+- **Script équivalent en JavaScript** :
+  ```javascript
+  const { Builder, By, until } = require('selenium-webdriver');
+
+  (async function example() {
+    let driver = await new Builder().forBrowser('chrome').build();
+    try {
+      await driver.get('https://www.example.com');
+      let title = await driver.getTitle();
+      console.log(title);
+    } finally {
+      await driver.quit();
+    }
+  })();
+  ```
+
+### Exécution de JavaScript dans Selenium
+
+- **Manipulation du DOM** :
+  - Vous pouvez exécuter des scripts JavaScript directement dans le contexte de la page chargée :
+    ```python
+    driver.execute_script("return document.title;")
+    ```
+
+Ces exercices vous aideront à comprendre les différences entre l'utilisation de Selenium avec Python et JavaScript, ainsi qu'à explorer les capacités de manipulation du DOM via JavaScript dans Selenium.
