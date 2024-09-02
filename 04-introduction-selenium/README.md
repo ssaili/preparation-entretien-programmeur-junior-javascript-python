@@ -1,25 +1,25 @@
 # Introduction à Selenium 🕸️🔧
 
-L'objectif de cette étape est de configurer votre environnement de développement pour utiliser Selenium sur Ubuntu, en installant les bibliothèques nécessaires et en vous familiarisant avec l'automatisation des tests. Vous apprendrez à exécuter des scripts Selenium simples en Python et JavaScript pour automatiser des tâches web, et comprendrez comment Selenium peut être utilisé pour manipuler le DOM via JavaScript.
+L'objectif de cette étape a été de configurer mon environnement de développement pour utiliser Selenium sur Ubuntu, en installant les bibliothèques nécessaires et en me familiarisant avec l'automatisation des tests. J'ai appris à exécuter des scripts Selenium simples en Python et JavaScript.
 
 ## Configuration de l'environnement de développement pour Selenium sur Ubuntu 🛠️
 
 1. **Installation de Selenium et des dépendances** 📥
-   - Ouvrez un terminal et installez pip :
+   - J'ai ouvert un terminal et installé pip :
      pip est un gestionnaire de paquets pour Python. Il est essentiel pour installer des packages Python tels que Selenium.
      ```bash
      sudo apt install python3-pip
      ```
    ### Installation de Selenium pour Python
 
-    Une fois pip installé, vous pouvez installer Selenium pour Python en exécutant la commande suivante dans le terminal :
+    Une fois pip installé, j'ai pu installer Selenium pour Python en exécutant la commande suivante dans le terminal :
     ```bash
     pip install selenium
     ```
   
     ### Installation de Selenium pour JavaScript
     
-    Pour installer Selenium pour JavaScript, vous devez d'abord avoir Node.js et npm installés sur votre système. Ensuite, exécutez la commande suivante dans le terminal :
+    Pour installer Selenium pour JavaScript, j'ai d'abord dû avoir Node.js et npm installés sur mon système. Ensuite, j'ai exécuté la commande suivante dans le terminal :
     ```bash
     npm install selenium-webdriver
     ```
@@ -27,14 +27,14 @@ L'objectif de cette étape est de configurer votre environnement de développeme
 2. **Vérification de l'installation** ✅
     ### Vérification pour Python
 
-    Pour vérifier si Selenium est bien installé pour Python via pip, vous pouvez exécuter la commande suivante dans le terminal :
+    Pour vérifier si Selenium était bien installé pour Python via pip, j'ai exécuté la commande suivante dans le terminal :
     
     ```bash
     pip show selenium
     ```
     ### Vérification pour JavaScript
 
-    Pour vérifier si Selenium WebDriver est installé pour JavaScript, exécutez la commande suivante dans le terminal :
+    Pour vérifier si Selenium WebDriver était installé pour JavaScript, j'ai exécuté la commande suivante dans le terminal :
     ```bash
     npm list selenium-webdriver
     ```
@@ -49,7 +49,7 @@ Les tests unitaires se concentrent sur les plus petites unités de code, comme l
 
 ### Tests d'Intégration
 Les tests d'intégration vérifient que les différents modules ou services d'une application fonctionnent bien ensemble. Ils sont essentiels pour détecter les problèmes d'interaction entre les composants, qui ne seraient pas visibles lors des tests unitaires.  
-** Exemple : S'assurer qu'après la soumission d'un formulaire de contact, une notification de confirmation est envoyée à l'utilisateur.
+**Exemple :** S'assurer qu'après la soumission d'un formulaire de contact, une notification de confirmation est envoyée à l'utilisateur.
 
 ### Tests End-to-End (E2E)
 Les tests end-to-end valident le fonctionnement complet d'une application du début à la fin, en simulant des scénarios réels d'utilisation. Ils se concentrent sur l'expérience utilisateur finale, vérifiant que tous les composants fonctionnent ensemble dans des conditions réalistes.  
