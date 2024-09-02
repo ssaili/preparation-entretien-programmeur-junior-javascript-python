@@ -92,6 +92,9 @@ Ces scripts naviguent vers la page de [mon profil GitHub](https://github.com/ssa
   finally:
      # Ferme le navigateur, que l'opération ait réussi ou échoué
      driver.quit()
+
+  # Exécutez ce script avec la commande suivante :
+  # python3 nom_du_fichier.py
   ```
 
 ### Écrire un script Selenium en JavaScript 🖥️
@@ -134,4 +137,7 @@ Ces scripts naviguent vers la page de [mon profil GitHub](https://github.com/ssa
       await driver.quit();
     }
   })();
+
+  // Exécutez ce script avec la commande suivante :
+  // node nom_du_fichier.js
   ```
