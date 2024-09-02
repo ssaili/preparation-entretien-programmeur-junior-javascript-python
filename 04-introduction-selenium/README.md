@@ -57,42 +57,45 @@ Les tests end-to-end valident le fonctionnement complet d'une application du dé
 
 ## Scripts Selenium en JavaScript et Python
 
+Ces scripts naviguent vers la page de profil GitHub spécifiée et vérifient la présence du message "Bienvenue sur mon profil GitHub! 👋". 
+
 ### Écrire un script Selenium en Python 🐍
 
 - **Script simple en Python** :
   ```python
   from selenium import webdriver
+  from selenium.webdriver.common.by import By
 
   driver = webdriver.Chrome()
-  driver.get("https://www.example.com")
-  assert "Example Domain" in driver.title
-  driver.quit()
+  driver.get("https://github.com/ssaili")
+  try:
+      element = driver.find_element(By.XPATH, "//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]")
+      assert element is not None
+      print("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'")
+  except:
+      print("Message non trouvé.")
+  finally:
+      driver.quit()
   ```
 
 ### Écrire un script Selenium en JavaScript 🖥️
 
 - **Script équivalent en JavaScript** :
   ```javascript
-  const { Builder, By, until } = require('selenium-webdriver');
+  const { Builder, By } = require('selenium-webdriver');
 
   (async function example() {
     let driver = await new Builder().forBrowser('chrome').build();
     try {
-      await driver.get('https://www.example.com');
-      let title = await driver.getTitle();
-      console.log(title);
+      await driver.get('https://github.com/ssaili');
+      let element = await driver.findElement(By.xpath("//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]"));
+      if (element) {
+        console.log("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'");
+      }
+    } catch (error) {
+      console.log("Message non trouvé.");
     } finally {
       await driver.quit();
     }
   })();
   ```
-
-### Exécution de JavaScript dans Selenium
-
-- **Manipulation du DOM** :
-  - Vous pouvez exécuter des scripts JavaScript directement dans le contexte de la page chargée :
-    ```python
-    driver.execute_script("return document.title;")
-    ```
-
-Ces exercices vous aideront à comprendre les différences entre l'utilisation de Selenium avec Python et JavaScript, ainsi qu'à explorer les capacités de manipulation du DOM via JavaScript dans Selenium.
