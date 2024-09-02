@@ -57,7 +57,7 @@ Les tests end-to-end valident le fonctionnement complet d'une application du dé
 
 ## Scripts Selenium en JavaScript et Python
 
-Ces scripts naviguent vers la page de profil GitHub spécifiée et vérifient la présence du message "Bienvenue sur mon profil GitHub! 👋". 
+Ces scripts naviguent vers la page de [mon profil GitHub](https://github.com/ssaili) et vérifient la présence du message "Bienvenue sur mon profil GitHub! 👋".
 
 ### Écrire un script Selenium en Python 🐍
 
