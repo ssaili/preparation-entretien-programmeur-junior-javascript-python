@@ -281,7 +281,7 @@ with open('exemple.txt', 'r') as fichier:
 
 Ces étapes et concepts m'ont fourni une base solide pour le développement en Python sur Ubuntu.
 
-## JavaScript 
+## JavaScript ✨
 
 ## Configuration de mon environnement de développement pour JavaScript sur Ubuntu 🛠️
 
