@@ -39,6 +39,12 @@ L'objectif de cette étape a été de configurer mon environnement de développe
     npm list selenium-webdriver
     ```
 
+3. **Installation du WebDriver** 🌐
+   - Le WebDriver est essentiel car il sert d'interface entre Selenium et le navigateur web. Il permet à Selenium de contrôler le navigateur de manière automatisée, en simulant des actions telles que le clic, la saisie de texte, et la navigation entre les pages. Chaque navigateur (Chrome, Firefox, etc.) nécessite son propre WebDriver spécifique. Pour installer le WebDriver, j'ai utilisé la commande suivante dans le terminal :
+     ```bash
+     sudo apt install chromium-chromedriver
+     ```
+
 ## Comprendre Selenium et son utilisation
 
 Selenium est un outil puissant pour l'automatisation des tests web, permettant de simuler des interactions utilisateur avec un navigateur web et facilitant ainsi les tests fonctionnels des applications web. Cela permet de garantir qu'une application fonctionne correctement, est sécurisée, performante, et offre une expérience utilisateur optimale. Voici un aperçu des différents types de tests automatisés, notamment les tests unitaires, d'intégration, et end-to-end, ainsi que leur utilité, avec des exemples simples pour chacun :
