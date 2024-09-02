@@ -30,7 +30,6 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
    * **Scripts Selenium en JavaScript :**
      * Écrivez un script Selenium simple en Python pour automatiser une tâche web (par exemple, ouvrir une page et vérifier le titre).
      * Répétez l'exercice en JavaScript pour comprendre les différences entre les deux langages.
-     * Explorez l'exécution de JavaScript dans Selenium pour manipuler le DOM.
 
 5. **Intégration continue et contrôle qualité avec GitLab** 🔄🛠️
    * **Introduction à GitLab CI/CD :**
