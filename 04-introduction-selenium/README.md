@@ -41,7 +41,7 @@ L'objectif de cette étape a été de configurer mon environnement de développe
 
 ## Comprendre Selenium et son utilisation
 
-Selenium est un outil puissant pour l'automatisation des tests web, permettant de simuler des interactions utilisateur avec un navigateur web et facilitant ainsi les tests fonctionnels des applications web. Voici un aperçu des différents types de tests automatisés, notamment les tests unitaires, d'intégration, et end-to-end, ainsi que leur utilité, avec des exemples simples pour chacun :
+Selenium est un outil puissant pour l'automatisation des tests web, permettant de simuler des interactions utilisateur avec un navigateur web et facilitant ainsi les tests fonctionnels des applications web. Cela permet de garantir qu'une application fonctionne correctement, est sécurisée, performante, et offre une expérience utilisateur optimale. Voici un aperçu des différents types de tests automatisés, notamment les tests unitaires, d'intégration, et end-to-end, ainsi que leur utilité, avec des exemples simples pour chacun :
 
 ### Tests Unitaires
 Les tests unitaires se concentrent sur les plus petites unités de code, comme les fonctions ou les méthodes individuelles, pour s'assurer qu'elles fonctionnent correctement.  
