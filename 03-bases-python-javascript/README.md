@@ -280,3 +280,46 @@ with open('exemple.txt', 'r') as fichier:
 **Résultat** : `Bonjour, monde!`
 
 Ces étapes et concepts m'ont fourni une base solide pour le développement en Python sur Ubuntu.
+
+## Configuration de mon environnement de développement pour JavaScript sur Ubuntu 🛠️
+
+1. **Installation de Node.js** 📥
+   - J'ai installé Node.js, un programme qui permet d'exécuter du JavaScript sur mon ordinateur sans navigateur. Il est essentiel pour utiliser des outils comme npm.
+   - J'ai consulté la procédure d’installation pour Ubuntu sur le [site officiel](https://nodejs.org/fr/download/package-manager).
+
+2. **Installation de `curl`** 🌐
+   - `curl` est un outil en ligne de commande qui permet de télécharger ou d'envoyer des données à un serveur sur Internet.
+   - J'ai installé `curl` en exécutant la commande suivante dans le terminal :
+     ```bash
+     sudo apt install curl
+     ```
+
+3. **Installation de NVM (Node Version Manager)** 🔄
+   - NVM est un outil qui me permet de gérer plusieurs versions de Node.js sur mon système.
+   - J'ai installé NVM en exécutant la commande suivante :
+     ```bash
+     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+     ```
+
+4. **Téléchargement et installation de Node.js** 📦
+   - J'ai utilisé NVM pour installer Node.js en exécutant :
+     ```bash
+     nvm install 20
+     ```
+
+5. **Vérification de l'installation** ✅
+   - Je me suis assuré que Node.js était correctement installé avec :
+     ```bash
+     node -v
+     ```
+   - J'ai également vérifié la version de npm avec :
+     ```bash
+     npm -v
+     ```
+
+6. **Configuration de Visual Studio Code** ⚙️
+   - J'ai lancé Visual Studio Code et installé les extensions suivantes pour améliorer mon expérience de développement JavaScript :
+     - **ESLint** : Aide à détecter et corriger les erreurs dans votre code JavaScript en vérifiant qu'il respecte certaines règles de qualité.
+     - **Prettier** : Formate automatiquement votre code pour qu'il soit propre et uniforme, ce qui facilite sa lecture et sa maintenance.
+     - **Live Server** : Lance un serveur local qui recharge automatiquement votre page web dans le navigateur chaque fois que vous modifiez votre code.
+     - **JavaScript (ES6) Code Snippets** : Fournit des raccourcis pour écrire plus rapidement du code JavaScript moderne, en insérant automatiquement des structures de code courantes.
