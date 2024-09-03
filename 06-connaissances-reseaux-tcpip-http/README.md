@@ -19,7 +19,7 @@ Ensemble, TCP et IP permettent une communication efficace et fiable entre appare
 ### Étudier le fonctionnement du protocole HTTP
 
 1. **Les bases du protocole HTTP**
-   - HTTP (Hypertext Transfer Protocol) est le protocole utilisé pour la transmission de documents hypertextes sur le World Wide Web.
+   - HTTP (Hypertext Transfer Protocol) est le protocole qui permet aux navigateurs web et aux serveurs de communiquer entre eux pour échanger des informations sur Internet.
    - Il fonctionne comme un protocole de requête-réponse entre un client (navigateur) et un serveur web.
 
 2. **Méthodes de requête HTTP**
