@@ -38,12 +38,11 @@ Bienvenue dans mon dépôt de préparation pour l'entretien de Programmeur Junio
    * **Pratiques de contrôle qualité :**
      * Étudiez les pratiques de contrôle qualité du code.
 
-6. **Connaissances des réseaux TCP/IP et des protocoles HTTP** 🌐📡
-   * **Réseaux TCP/IP :**
-     * Comprenez les principes de base des réseaux, y compris les adresses IP, les sous-réseaux, et les protocoles de transport.
+6. **Connaissances des protocoles TCP/IP et du protocole HTTP** 🌐📡
+   * **Protocoles TCP/IP :**
+     * Comprenez les principes de base des protocoles TCP/IP.
    * **Protocole HTTP :**
      * Étudiez le fonctionnement du protocole HTTP, y compris les méthodes de requête et les codes de statut.
-     * Utilisez des outils comme Postman pour envoyer des requêtes HTTP et analyser les réponses.
 
 ## Comment Utiliser ce Dépôt 📘
 
