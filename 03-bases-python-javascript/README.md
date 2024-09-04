@@ -20,7 +20,7 @@ L'objectif de cette étape était de configurer les environnements de développe
 3. **Installation de Git** 🛠️
    - J'ai installé Git en exécutant la commande suivante dans le terminal :
      ```bash
-     sudo apt-get install git
+     sudo apt install git
      ```
    - J'ai vérifié l'installation de Git avec la commande :
      ```bash
