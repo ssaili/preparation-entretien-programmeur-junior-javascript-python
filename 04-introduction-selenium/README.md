@@ -68,82 +68,84 @@ Ces scripts naviguent vers la page de [mon profil GitHub](https://github.com/ssa
 ### Écrire un script Selenium en Python 🐍
 
 - **Script simple en Python** :
-  ```python
-  # Importation des modules nécessaires depuis Selenium
-  from selenium import webdriver
-  from selenium.webdriver.chrome.service import Service
-  from selenium.webdriver.common.by import By
+```python
+# Importation des modules nécessaires depuis Selenium
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
 
-  # Configuration du service ChromeDriver avec le chemin vers l'exécutable
-  service = Service(executable_path='/usr/bin/chromedriver')
+# Configuration du service ChromeDriver avec le chemin vers l'exécutable
+service = Service(executable_path='/usr/bin/chromedriver')
 
-  # Initialisation du navigateur Chrome avec le service configuré
-  driver = webdriver.Chrome(service=service)
+# Initialisation du navigateur Chrome avec le service configuré
+driver = webdriver.Chrome(service=service)
 
-  # Ouvre la page web spécifiée
-  driver.get("https://github.com/ssaili")
+# Ouvre la page web spécifiée
+driver.get("https://github.com/ssaili")
 
-  try:
-     # Recherche un élément sur la page contenant le texte spécifié
-     element = driver.find_element(By.XPATH, "//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]")
-    
-     # Vérifie si l'élément a été trouvé
-     assert element is not None
-    
-     # Si l'élément est trouvé, affiche un message dans la console
-     print("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'")
-  except:
-     # En cas d'erreur (par exemple, si l'élément n'est pas trouvé), affiche un message d'erreur
-     print("Message non trouvé.")
-  finally:
-     # Ferme le navigateur, que l'opération ait réussi ou échoué
-     driver.quit()
+try:
+    # Obtenir tout le texte du body
+    body_text = driver.find_element(By.TAG_NAME, 'body').text
 
-  # Exécutez ce script avec la commande suivante :
-  # python3 nom_du_fichier.py
-  ```
+    # Vérifier si le texte recherché est présent
+    texte_recherche = "Bienvenue sur mon profil GitHub! 👋"
+
+    if texte_recherche in body_text:
+        print(f"Le texte '{texte_recherche}' a été trouvé sur la page.")
+    else:
+        print(f"Le texte '{texte_recherche}' n'a pas été trouvé sur la page.")
+except Exception as error:
+    # En cas d'erreur (par exemple, si l'élément n'est pas trouvé), affiche un message d'erreur
+    print("Une erreur s'est produite :", str(error))
+finally:
+    # Ferme le navigateur, que l'opération ait réussi ou échoué
+    driver.quit()
+
+# Exécutez ce script avec la commande suivante :
+# python3 nom_du_fichier.py
+```
 
 ### Écrire un script Selenium en JavaScript 🖥️
 
-- **Script équivalent en JavaScript** :
+```javascript
+// Importation des modules nécessaires depuis Selenium
+const { Builder, By } = require('selenium-webdriver');
+// Importation du module Chrome de Selenium
+const chrome = require('selenium-webdriver/chrome');
 
-  ```javascript
-  // Importation des modules nécessaires depuis Selenium
-  const { Builder, By } = require('selenium-webdriver');
-  // Importation du module Chrome de Selenium
-  const chrome = require('selenium-webdriver/chrome');
+// Configuration du service ChromeDriver avec le chemin vers l'exécutable
+const service = new chrome.ServiceBuilder('/usr/bin/chromedriver');
 
-  // Configuration du service ChromeDriver avec le chemin vers l'exécutable
-  const service = new chrome.ServiceBuilder('/usr/bin/chromedriver');
-
-  // Fonction asynchrone auto-exécutante pour gérer les actions du navigateur
-  (async function example() {
+// Fonction asynchrone auto-exécutante pour gérer les actions du navigateur
+(async function example() {
     // Initialisation du pilote pour le navigateur Chrome
     let driver = await new Builder()
-      .forBrowser('chrome') // Spécifie l'utilisation de Chrome
-      .setChromeService(service) // Associe le service ChromeDriver configuré
-      .build(); // Construit l'instance du navigateur
+        .forBrowser('chrome') // Spécifie l'utilisation de Chrome
+        .setChromeService(service) // Associe le service ChromeDriver configuré
+        .build(); // Construit l'instance du navigateur
 
     try {
-      // Ouvre la page web spécifiée
-      await driver.get('https://github.com/ssaili');
+        // Ouvre la page web spécifiée
+        await driver.get('https://github.com/ssaili');
 
-      // Recherche un élément sur la page contenant le texte spécifié
-      let element = await driver.findElement(By.xpath("//*[contains(text(), 'Bienvenue sur mon profil GitHub! 👋')]"));
+        // Obtenez le texte du corps de la page
+        let bodyText = await driver.findElement(By.tagName('body')).getText();
 
-      // Si l'élément est trouvé, affiche un message dans la console
-      if (element) {
-        console.log("Message trouvé : 'Bienvenue sur mon profil GitHub! 👋'");
-      }
+        // Vérifiez si le texte souhaité est présent
+        if (bodyText.includes('Bienvenue sur mon profil GitHub! 👋')) {
+            console.log('Le texte est présent sur la page.');
+        } else {
+            console.log('Le texte n\'est pas présent sur la page.');
+        }
     } catch (error) {
-      // En cas d'erreur (par exemple, si l'élément n'est pas trouvé), affiche un message d'erreur
-      console.log("Message non trouvé.");
+        // En cas d'erreur (par exemple, si l'élément n'est pas trouvé), affiche un message d'erreur
+        console.log("Une erreur s'est produite :", error.message);
     } finally {
-      // Ferme le navigateur, que l'opération ait réussi ou échoué
-      await driver.quit();
+        // Ferme le navigateur, que l'opération ait réussi ou échoué
+        await driver.quit();
     }
-  })();
+})();
 
-  // Exécutez ce script avec la commande suivante :
-  // node nom_du_fichier.js
-  ```
+// Exécutez ce script avec la commande suivante :
+// node nom_du_fichier.js
+```
